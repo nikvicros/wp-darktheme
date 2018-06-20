@@ -1,0 +1,276 @@
+/*!
+Theme Name: DarkStatus
+Theme URI: http://underscores.me/
+Author: DarkStatus.net
+Author URI: http://DarkStatus.net
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: darkwptheme
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+DarkStatus is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+
+
+/*--------------------------------------------------------------
+## DarkWP Theme Specific CSS
+--------------------------------------------------------------*/
+
+
+/* Global */
+
+.ds-post-body {
+    background-color: #2f3542;
+}
+
+.section-gray {
+    background: #e5e5e5;
+}
+
+
+/* Header / Banner Section */
+
+.bx-logo-padding {
+    padding-bottom: 50px;
+}
+
+.page-header {
+    padding-top: 60px;
+}
+
+.sub-page-header {
+    height: 40vh;
+    overflow: hidden
+}
+
+.ds-about {
+    background-size: 100%;
+}
+
+.ds-post-header {
+    background-size: 100%;
+}
+
+.ds-cat {
+    background-size: 100%;
+}
+
+
+/* Card Backgrounds */
+
+.ds-cards {
+    background-position: center center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    text-align: center
+}
+
+
+/* Text Colors */
+
+.text-universe {
+    color: #F67280;
+}
+
+.text-humanity {
+    color: #17B978;
+}
+
+.text-theories {
+    color: #7e598f;
+}
+
+.text-discoveries {
+    color: rgb(35, 146, 158);
+    list-style: none;
+}
+
+.card-title {
+    color: #17B978;
+}
+
+p,
+.title {
+    color: #ecf0f1;
+}
+
+.ds-footer-title {
+    color: #2f3542;
+}
+
+
+/* MF Hero Main Page */
+
+.navbar-nav ul {
+    list-style-type: none;
+}
+
+.navbar-nav ul li {
+    padding-right: 10px;
+}
+
+.page_item {
+    padding-right: 10px;
+}
+
+.nav-font {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/* Background Colors  */
+
+.mf-section-bg-dark-gray {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#65686b+0,2f3542+100 */
+    background: #65686b;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #65686b 0%, #2f3542 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #65686b 0%, #2f3542 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #65686b 0%, #2f3542 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#65686b', endColorstr='#2f3542', GradientType=1);
+    /* IE6-9 */
+}
+
+.ds-footer-links-color {
+    color: #999;
+}
+
+.blogs-2 ul.post-categories li {
+    list-style: none;
+}
+
+.post-categories {
+    list-style: none;
+}
+
+
+/* Comments */
+
+.comment-list li {
+    list-style: none;
+}
+
+.says {
+    display: none;
+}
+
+.comment-metadata {
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.comment-metadata:before {
+    content: "  - "
+}
+
+#submit {
+    border-radius: 30px
+}
+
+#submit {
+    color: #fff;
+    background-color: #45EBA5;
+    border-color: #45EBA5;
+    -webkit-box-shadow: none;
+    box-shadow: none padding: 3px;
+}
+
+#submit:hover {
+    color: #fff;
+    background-color: rgb(99, 167, 139);
+    border-color: rgb(99, 167, 139)
+}
+
+#submit:focus,
+#submit.focus {
+    -webkit-box-shadow: none, 0 0 0 .2rem rgba(33, 150, 243, 0.5);
+    box-shadow: none, 0 0 0 .2rem rgba(33, 150, 243, 0.5)
+}
+
+#submit.disabled,
+#submit:disabled {
+    color: #fff;
+    background-color: #45EBA5;
+    border-color: #45EBA5
+}
+
+#submit:not(:disabled):not(.disabled):active,
+#submit:not(:disabled):not(.disabled).active,
+.show>#submit.dropdown-toggle {
+    color: #fff;
+    background-color: #45EBA5;
+    border-color: #45EBA5
+}
+
+#submit:not(:disabled):not(.disabled):active:focus,
+#submit:not(:disabled):not(.disabled).active:focus,
+.show>#submit.dropdown-toggle:focus {
+    -webkit-box-shadow: none, 0 0 0 .2rem rgba(33, 150, 243, 0.5);
+    box-shadow: none, 0 0 0 .2rem rgba(33, 150, 243, 0.5)
+}
+
+#comment {
+    background-color: gainsboro;
+}
+
+#comment:hover {
+    border-color: #45EBA5;
+}
+
+.comment-form-url,
+.comment-notes {
+    display: none;
+}
+
+.comment-form-email label {
+    display: none;
+}
+
+.comment-form-comment label {
+    display: none;
+}
+
+.comment-form-author label {
+    display: none;
+}
+
+.comment-form-author:before {
+    content: 'Name '
+}
+
+.comment-form-email:before {
+    content: 'E-Mail '
+}
+
+.similar-stories,
+.related-title,
+.related-description {
+    color: #2f3542;
+}
+
+.related-category {
+    list-style: none;
+    margin-right: 10px;
+}
+
+.card-body.related-title {
+    color: #2f3542;
+}
