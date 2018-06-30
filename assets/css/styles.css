@@ -15,7 +15,6 @@
 }
 
 html {
-    font-family: sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -152,6 +151,7 @@ sup {
 
 a {
     color: #45EBA5;
+    font-family: 'Roboto Slab', serif !important;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects

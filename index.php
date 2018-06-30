@@ -15,30 +15,27 @@
 get_header();
 ?>
 
-
-
-
-
+    <?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
 
  	<div class="mf-hero-main page-header mf-section-bg-dark-gray">
         <div class="container ">
             <div class="row ">
                 <div class="col-md-8 mf-latest-post-header ">
-                    <div class="card card-raised card-background " style="background-image: url( 'img/remote-viewer.jpg') ">
+                    <div class="card card-raised card-background " style="background-image: url('<?php echo $thumb['0'];?>') ">
                         <div class="card-body ">
-
-
-
-
+                                <h2 class="card-title" id="post-<?php the_ID(); ?>">
+                                <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
+                                <?php the_title(); ?></a></h2>
+                                <h4><?php the_time('F jS, Y') ?> <!-- by <?php the_author() ?> --></h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mf-cat-travel ">
-                    <div class="card card-background ds-cards " style="background-image: url( './img/cats/galactic.png') ">
+                    <div class="card card-background ds-cards " style="background-image: url( '<?php bloginfo('stylesheet_directory') ?>/assets/img/cats/galactic.png') ">
                         <a href="#darkstatus "></a>
                         <div class="card-body ds-card-body ">
                             <a href="#darkstatus ">
-                                <h2 class="ds-card-title ">Universe</h2>
+                                <h2 class="card-title ">Universe</h2>
                             </a>
                         </div>
                     </div>
@@ -48,19 +45,18 @@ get_header();
 
             <div class="row collections ">
                 <div class="col-md-4 mf-cat-home ">
-                    <div class="card card-background ds-cards " style="background-image: url( './img/cats/metric.png') ">
+                    <div class="card card-background ds-cards " style="background-image: url( '<?php bloginfo('stylesheet_directory') ?>/assets/img/cats/metric.png') ">
                         <a href="#darkstatus "></a>
                         <div class="card-body ds-card-body ">
-
                             <a href="#darkstatus ">
-                                <h2 class="card-title ds-card-title ">Theories</h2>
+                                <h2 class="card-title">Theories</h2>
                             </a>
                         </div>
                     </div>
 
                 </div>
                 <div class="col-md-4 mf-cat-review ">
-                    <div class="card card-background ds-cards " style="background-image: url( './img/cats/spectrum.png') ">
+                    <div class="card card-background ds-cards " style="background-image: url( '<?php bloginfo('stylesheet_directory') ?>/assets/img/cats/spectrum.png') ">
                         <a href="#darkstatus "></a>
                         <div class="card-body ">
 
@@ -71,7 +67,7 @@ get_header();
                     </div>
                 </div>
                 <div class="col-md-4 mf-cat-recipe ">
-                    <div class="card card-background ds-cards " style="background-image: url( './img/cats/jewels.png') ">
+                    <div class="card card-background ds-cards " style="background-image: url( '<?php bloginfo('stylesheet_directory') ?>/assets/img//cats/jewels.png') ">
                         <a href="#darkstatus "></a>
                         <div class="card-body ">
 
@@ -167,6 +163,8 @@ get_header();
 				</div>
 			</div>
         </div>
+
+
     </div> <!-- END MAIN -->
 
 <?php get_footer();
