@@ -17,7 +17,7 @@ get_header(); ?>
             <div class="row">
                 <div class="col-md-8 ml-auto mr-auto text-center">
 					<h1 class="title"><?php the_title( ); ?></h1>
-                    <h4>War Is Peace. Freedom Is Slavery. Ignorance is Strength</h4>
+                    <h4>Cool Funny Subheader Here</h4>
                     <br>
                     <a href="#top-post" class="btn btn-rose btn-round btn-lg">
                         <i class="material-icons">format_align_left</i> Read Article
@@ -95,7 +95,7 @@ get_header(); ?>
 
 
                         <div class="col-md-4">
-                            <div class="card card-blog">
+                            <div class="card card-blog card-summary-background">
                                 <div class="card-header card-header-image">
                                     <a href="#darkstatus">
                                         <img class="img img-raised" src=<?php the_post_thumbnail( 'medium' ); ?>

@@ -33,14 +33,13 @@ get_header();
                     <div class="col-md-6">
                         <div class="card card-profile card-plain">
                             <div class="card-avatar">
-                                <img class="img" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/cats/fox.png">
+                                <img class="img" src="<?php bloginfo('stylesheet_directory') ?>/assets/img/logo/mf-logo-100.png">
                             </div>
                             <div class="card-body ">
-                                <h6 class="card-category text-gray">Blogger / Researcher / Developer</h6>
-                                <h4 class="card-title">Dark Status</h4>
+                                <h6 class="card-category text-gray">Blogger / Foodie</h6>
+                                <h4 class="card-title">Moody Foodie</h4>
                                 <p class="card-description">
-                                    What is this all about? Waking up has been a harsh experience for me. This blog is an attempt to reconcile my thoughts, feelings and research for others to read. I intend to only present well researched and fully sourced articles. I encourage all my readers
-                                    to question my posts, motives and reasoning in a respectful way. I want to create a passionate dialogue filled with facts, not conjecture. Please be respectful of others, speak softly and carry a big stick.
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                                 </p>
                             </div>
                         </div>

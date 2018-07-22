@@ -35,7 +35,7 @@ get_header();
                         <a href="#darkstatus "></a>
                         <div class="card-body ds-card-body ">
                             <a href="#darkstatus ">
-                                <h2 class="card-title ">Universe</h2>
+                                <h2 class="card-title ">Travel</h2>
                             </a>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ get_header();
                         <a href="#darkstatus "></a>
                         <div class="card-body ds-card-body ">
                             <a href="#darkstatus ">
-                                <h2 class="card-title">Theories</h2>
+                                <h2 class="card-title">Local</h2>
                             </a>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ get_header();
                         <div class="card-body ">
 
                             <a href="#darkstatus ">
-                                <h2 class="card-title ">Discoveries</h2>
+                                <h2 class="card-title ">Recipes</h2>
                             </a>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ get_header();
                         <div class="card-body ">
 
                             <a href="#darkstatus ">
-                                <h2 class="card-title ">Humanity</h2>
+                                <h2 class="card-title ">Reviews</h2>
                             </a>
                         </div>
                     </div>
@@ -89,7 +89,7 @@ get_header();
                     <div class="text-center ">
                         <h3 class="title ">Subscribe to my Newsletter</h3>
                         <p class="description ">
-                            Join DS newsletter and get news in your inbox once a month! I hate spam too, so no worries about this.
+                            Join MF newsletter and get news in your inbox once a month! I hate spam too, so no worries about this.
                         </p>
                     </div>
                     <div class="card card-raised card-form-horizontal ">

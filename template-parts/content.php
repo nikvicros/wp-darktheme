@@ -10,7 +10,7 @@
 ?>
 
     <div class="col-md-4 ">
-        <div class="card card-plain card-blog ">
+        <div class="card card-blog card-summary-background">
             <div class="card-header card-header-image ">
 				<img class="img img-raised" src=<?php the_post_thumbnail( 'medium' ); ?>
             </div>

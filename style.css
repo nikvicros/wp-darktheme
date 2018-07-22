@@ -132,8 +132,16 @@ p,
     font-family: 'Roboto Slab', serif;
 }
 
+.nav-margin {
+    margin-bottom: 10px;
+}
+
 
 /* Background Colors  */
+
+.card-summary-background {
+    background-color: #65686b;
+}
 
 .mf-section-bg-dark-gray {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#65686b+0,2f3542+100 */

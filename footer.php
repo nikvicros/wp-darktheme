@@ -19,9 +19,8 @@
                 <div class="row ">
 
                     <div class="col-md-3 ">
-                        <h5>Dark Status Blog</h5>
-                        <p> Topics include: Control Systems, Corporate corruption, Mind control, Alternative History, Earth Theories, Humanity, the Universe, and the research of the plethora of shit spewing from the finely tuned, total control main stream
-                            media.
+                        <h5>Moody Foodie Blog</h5>
+                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
                         </p>
                     </div>
 
@@ -51,22 +50,22 @@
                         <ul class="links-vertical ds-footer-li">
                             <li>
                                 <a href="#darkstatus ">
-                                                    Universe
+                                                    Travel
                                                 </a>
                             </li>
                             <li>
                                 <a href="#darkstatus ">
-                                                    Theories
+                                                    Recipes
                                                 </a>
                             </li>
                             <li>
                                 <a href="#darkstatus ">
-                                                    Discovery
+                                                    Local
                                                 </a>
                             </li>
                             <li>
                                 <a href="#darkstatus ">
-                                                    Humanity
+                                                    Review
                                                 </a>
                             </li>
                         </ul>
@@ -95,7 +94,7 @@
                     <div class="col-md-3 ">
                         <h5>Subscribe to my Newsletter</h5>
                         <p>
-                            Join DS newsletter and get news in your inbox once a month! I hate spam too, so no worries about this.
+                            Join MF newsletter and get news in your inbox once a month! I hate spam too, so no worries about this.
                         </p>
                         <form class="form form-newsletter " method=" " action=" ">
                             <div class="form-group ">
@@ -120,7 +119,7 @@
                 Copyright &#xA9;
                 <script>
                     document.write(new Date().getFullYear())
-                </script> Dark Status All Rights Reserved.
+                </script> Moody Foodie All Rights Reserved.
             </div>
         </div>
     </footer>
