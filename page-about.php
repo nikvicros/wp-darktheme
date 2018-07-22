@@ -47,31 +47,12 @@ get_header();
 
 
                     <div class="col-md-6">
-                        <h2 class="title">Send me a message</h2>
-                        <p class="description">Send Love, Hate or just comments. Either way, I'll read them all and try to respond.
-                            <br>
-                            <br>
-                        </p>
-                        <form role="form" id="contact-form" method="post">
-                            <div class="form-group">
-                                <label for="name" class="bmd-label-floating">Your name</label>
-                                <input type="text" class="form-control" id="name">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleInputEmails" class="bmd-label-floating">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmails">
-                                <span class="bmd-help">We'll never share your email with anyone else.</span>
-                            </div>
-                            <div class="form-group label-floating">
-                                <label class="form-control-label bmd-label-floating" for="message"> Your message</label>
-                                <textarea class="form-control" rows="6" id="message"></textarea>
-                            </div>
-                            <div class="submit text-center">
-                                <input type="submit" class="btn btn-primary btn-raised btn-round" value="Send">
-                            </div>
-                        </form>
+
+                    
                     </div>
                 </div>
+
+
             </div>
         </div>
     </div>
